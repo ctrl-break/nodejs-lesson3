@@ -5,7 +5,6 @@ var clc = require('cli-color');
 const cyan = clc.cyan;
 const yellow = clc.yellow;
 const green = clc.green;
-const white = clc.white.bold;
 
 const logo = `
                     _
@@ -34,7 +33,7 @@ request('https://meduza.io/rss/all', function (error, response, xml) {
             console.log( yellow(res.rss.channel.item.at(i).pubDate.text()) );
             console.log( res.rss.channel.item.at(i).description.text() );
             console.log( cyan(res.rss.channel.item.at(i).link.text()) );
-            console.log( white(" * * * * * * * * * * * * * * * * * \n") );
+            console.log( " * * * * * * * * * * * * * * * * * \n" );
         }
       });
 
