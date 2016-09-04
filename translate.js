@@ -1,4 +1,3 @@
-var argv = require('minimist')(process.argv.slice(2));
 var parser = require('json-parser');
 var request = require('request');
 var http = require('http');

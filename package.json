@@ -19,7 +19,6 @@
   "dependencies": {
     "cli-color": "^1.1.0",
     "json-parser": "^1.1.5",
-    "minimist": "^1.2.0",
     "request": "^2.74.0",
     "url": "^0.11.0",
     "xmlreader": "^0.2.3"
